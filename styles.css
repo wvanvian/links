@@ -3,6 +3,8 @@ body {
   padding-bottom: 40px;
   background-color: white;
   max-width: 2000px;
+  display: flex;
+  justify-content: center;
 }
 
 .banner-image {
@@ -10,6 +12,7 @@ body {
   height: 500px;
   object-fit: cover;
   border-radius: 0px;
+  justify-content: center;
 }
 
 .images {
@@ -28,19 +31,34 @@ body {
     flex-direction: column;
     gap: 10px;
     max-width: 2000px;
+    flex-grow: 1;
 }
 
 .name {
-  color: #fffffe;
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
 .social-icons a {
   color: #fffffe;
   background-color: yellow;
   text-decoration: none;
+  justify-content: space-around;
 }
 
 .link a {
-  color: #001e1d;
+  color: white;
   text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.link {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+  gap: 10px;
 }
